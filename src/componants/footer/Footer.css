@@ -1,0 +1,48 @@
+footer.flex {
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+footer.flex ul {
+  gap: 1rem;
+}
+
+footer.flex ul a {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+footer.flex ul a:hover {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+footer.flex p {
+  font-size: 0.8rem;
+  margin-left: 250px;
+  color: rgb(113 113 122);
+}
+
+@media screen and (max-width: 880px) {
+  footer.flex {
+    flex-direction: column;
+    gap: 1.9rem;
+    margin-bottom: 50px;
+  }
+}
+footer.flex p {
+  /* text-align: center; */
+  margin-left: 0;
+}
+
+@media screen and (max-width: 480px) {
+  footer.flex {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  footer.flex p {
+    /* text-align: center; */
+    margin-left: 0;
+  }
+}

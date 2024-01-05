@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+html {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary: #15162b;
+  --secondary: #131525;
+  --bgbutton: #2e3261;
+  --border: rgb(63 63 70);
+  --title: rgb(244 244 245);
+  --subtitle: rgb(161 161 170);
+  --bgheader: rgb(39, 39, 42);
+  --blue: rgb(93, 188, 252);
+  --icon-hover: #6574d6;
+  --container-padding: 4.8rem;
+  --bgcard: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(170, 166, 166, 0.137)
+  );
+  --bgnav: #2e3261;
+  --icomenu: #7f8de9;
+  --contact: #25274e;
+  --contact-hover: #6574d6;
+}
+/* --primary: #181a31;
+--secondary: #131525; */
+
+.light {
+  --primary: #ffffff;
+  --secondary: #f0f0f0;
+  --bgbutton: #20687a;
+  --border: rgba(202, 202, 202, 0.518);
+  --title: rgb(39 39 42);
+  --subtitle: rgb(82 82 91);
+  --bgheader: rgb(253, 253, 253);
+  --blue: rgb(0, 149, 246);
+  --icon-hover: #172d36;
+  --container-padding: 4.8rem;
+  --bgcard: linear-gradient(
+    rgba(241, 233, 233, 0.205),
+    rgba(255, 255, 255, 0.9)
+  );
+  --bgnav: #ffffff;
+  --icomenu: rgb(20, 20, 22);
+  --contact: rgba(255, 255, 255, 0.162);
+  --contact-hover: #1174b6;
+}
+
+body {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.container {
+  border: 1px solid var(--border);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secondary);
+  padding: 0 4.8rem;
+  border-radius: 3px;
+}
+/* =========================
+           spinner 
+========================== */
+.spinner {
+  background: radial-gradient(ellipse at bottom, #10161f 0%, #090c1b 100%);
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner h1 {
+  margin: 50px;
+  color: #fff;
+}
+
+.spinner .PacmanLoader {
+  color: #1e1e69;
+}
+
+.divider {
+  border: 1px solid var(--border);
+  margin: 3rem 0;
+  width: calc(100% + var(--container-padding) + var(--container-padding));
+  margin-left: calc(var(--container-padding) * -1);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+  transition: 0.4s;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+button {
+  all: unset;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  scale: 0.95;
+}
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+a {
+  all: unset;
+  transition: 0.2s;
+}
+a:hover {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid #5b6aa8;
+  box-shadow: inset 0 0 2.5px 2px rgba(44, 43, 43, 0.5);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #9e4673, #3d4a59);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(270deg, #9e4673, #3d4a59, #9e4673);
+}
+
+/* for Firefox */
+html {
+  scrollbar-color: #9e4673 #3d4a59;
+}
+
+.scroll2Top {
+  background-color: var(--bgbutton);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 3%;
+  text-align: center;
+  transition: 0.3s;
+  border: 1px solid rgb(63 63 70);
+}
+
+.scroll2Top:hover {
+  transform: scale(1);
+  background-color: var(--icon-hover);
+  border: 1px solid #3443a1;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    --container-padding: 1.7rem;
+    width: 90%;
+    padding: 0 var(--container-padding);
+  }
+
+  .divider {
+    width: calc(100% + var(--container-padding) + var(--container-padding));
+    margin-left: calc(var(--container-padding) * -1);
+  }
+  .scroll2Top {
+    opacity: 0.7;
+    width: 2.1rem;
+    height: 2.1rem;
+    right: 6%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 98%;
+    padding: 0 var(--container-padding);
+  }
+  .scroll2Top {
+    opacity: 0.4;
+    width: 2rem;
+    height: 2rem;
+  }
+}
