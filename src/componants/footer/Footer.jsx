@@ -22,7 +22,7 @@ function Footer() {
       </ul>
 
       <div>
-        <p>© 2023 Spencer Sharp. All rights reserved.</p>
+        <p>© 2024 Abdulrahman Helmy. All rights reserved.</p>
       </div>
     </footer>
   );
