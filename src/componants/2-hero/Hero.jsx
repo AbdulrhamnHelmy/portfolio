@@ -28,7 +28,7 @@ function Hero() {
           transition={{ duration: 2 }}
           className="title"
         >
-         Software Egeneer,<br /> Back-end Developer
+         Software Engineer,<br /> Back-end Developer
         </motion.h1>
 
         <div className="btnCv " style={{ marginTop: "2rem" }}>
