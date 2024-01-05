@@ -40,7 +40,7 @@ section.hero .icon-verified {
   margin-left: -8px;
 }
 section.hero .avatar {
-  width: 140px;
+  width: 120px;
   border-radius: 50%;
   padding: 1px;
   box-shadow: 2px 2px 40px rgb(146, 210, 216) inset;
@@ -48,7 +48,7 @@ section.hero .avatar {
 }
 
 section.hero h1.title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 2.85rem;
   margin: 15px 0;
   color: var(--title);
@@ -81,7 +81,8 @@ section.hero p.sub-title {
   -ms-transition: 0.3s;
   cursor: pointer;
   -o-transition: 0.3s;
-  margin: 15px 0;
+  margin: 10px 0;
+  margin-bottom: 20px;
 }
 
 section.hero .btnCv .Link-cv:hover {
