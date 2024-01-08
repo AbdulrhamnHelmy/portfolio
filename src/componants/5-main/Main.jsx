@@ -18,7 +18,6 @@ function Main() {
   };
   return (
     <main id="main" className="flex">
-      <h1 style={{color:"var(--title)"}}>Projects</h1>
       <section className=" flex left-section">
         <button
           onClick={() => {
