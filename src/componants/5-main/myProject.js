@@ -59,23 +59,4 @@ export const myProjects = [
     iconLink: "https://amazon-clone-five-sandy.vercel.app/ ",
     moreLink: "https://github.com/AbdulrhamnHelmy/Amazon_clone ",
   },
-
-  {
-    projectTitle: "kudzoka",
-    subTitle: "The order delivery application is not responsive to all devices",
-    category: ["html & css"],
-    imgPath: "./images/Screenshot 2023-12-27 184343.png",
-    linkGithub: "https://github.com/AbdulrhamnHelmy/kudzokaa",
-    iconLink: "https://kudzokaa-murex.vercel.app/",
-    moreLink: "https://github.com/AbdulrhamnHelmy/Authntication-System ",
-  },
-  {
-    projectTitle: "Bomba",
-    subTitle: "The website for displaying products for e-commerce ",
-    category: ["html & css"],
-    imgPath: "./images/Screenshot 2023-11-21 bomb.png",
-    linkGithub: "https://github.com/AbdulrhamnHelmy/Bomba",
-    iconLink: "https://bomba-eight.vercel.app/",
-    moreLink: "https://github.com/AbdulrhamnHelmy/Bomba ",
-  },
 ];
