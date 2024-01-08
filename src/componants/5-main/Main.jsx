@@ -37,16 +37,7 @@ function Main() {
         >
           Node & Express
         </button>
-
-        <button
-          onClick={() => {
-            handleClick("html & css");
-          }}
-          className={currentActive === "html & css" ? "active" : null}
-        >
-          HTML & CSS
-        </button>
-
+        
         <button
           onClick={() => {
             handleClick("react");
