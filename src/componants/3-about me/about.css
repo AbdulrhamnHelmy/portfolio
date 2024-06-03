@@ -23,10 +23,10 @@
   color: var(--subtitle);
 }
 .imga {
-  width: 65%;
+  width: 62%;
   border-radius: 50%;
-  margin-left: 100px;
-  margin-top: 30px;
+  margin-left: 110px;
+  margin-top: -10px;
 }
 
 
