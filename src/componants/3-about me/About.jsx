@@ -3,7 +3,7 @@ import "./about.css";
 function About() {
   return (
     <section id="about" className="about">
-      <h1 className="about-title" style={{marginBottom:"50px"}}>About me </h1>
+      <h1 className="about-title" style={{marginBottom:"40px"}}>About me </h1>
 
       <div className=" info flex">
         <div>
