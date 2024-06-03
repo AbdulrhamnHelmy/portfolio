@@ -7,7 +7,7 @@
    3. Responsive Design (media query)
 */
 
-main.flex {
+div.flex {
   gap: 1rem;
   align-items: start;
 }
