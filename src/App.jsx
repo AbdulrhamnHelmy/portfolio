@@ -47,14 +47,15 @@ function App() {
       ) : (
         <div id="up" className="container">
           <Header />
+          <div id="home"  ></div>
           <Hero />
-          <div className="divider"></div>
+          <div id="about" className="divider"></div>
           <About />
-          <div className="divider"></div>
+          <div id="skills"  className="divider"></div>
           <Skills />
-          <div className="divider"></div>
+          <div id="main" className="divider"></div>
           <Main />
-          <div className="divider"></div>
+          <div id="contact" className="divider"></div>
           <Contact />
           <div className="divider"></div>
           <Footer />
