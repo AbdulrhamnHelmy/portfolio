@@ -35,9 +35,9 @@ export const myProjects = [
       "This is a temperature display application using Express js and Hbs, this site is designed with front-end and back-end",
     category: ["node & express"],
     imgPath: "./images/wea.png",
-    linkGithub: "https://github.com/AbdulrhamnHelmy/Weather_App",
-    iconLink: "https://github.com/AbdulrhamnHelmy/Weather_App ",
-    moreLink: "https://github.com/AbdulrhamnHelmy/Weather_App ",
+    linkGithub: "https://github.com/AbdulrhamnHelmy/Weather",
+    iconLink: "https://github.com/AbdulrhamnHelmy/Weather ",
+    moreLink: "https://github.com/AbdulrhamnHelmy/Weather ",
   },
   {
     projectTitle: "Management System",
