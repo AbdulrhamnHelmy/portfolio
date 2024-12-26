@@ -12,7 +12,7 @@ function About() {
             <span className="name">Abdulrahman Helmy Rabeay Mohamed.</span>
           </h4>
           <h4 className="myName">
-            My Age : <span className="name">23 years old.</span>
+            My Age : <span className="name">24 years old.</span>
           </h4>
           <h4 className="myName">
             Educational Degree :{" "}
