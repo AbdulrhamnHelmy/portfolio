@@ -17,7 +17,7 @@ function Hero() {
             alt=""
           ></motion.img>
           <div className="name">
-            <h1>Abdulrahman Mohamed</h1>
+            <h1>Abdulrahman Helmy</h1>
           </div>
           <div className="icon-verified"></div>
         </div>
