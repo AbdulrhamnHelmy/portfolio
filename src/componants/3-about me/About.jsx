@@ -9,7 +9,7 @@ function About() {
         <div>
           <h4 className="myName">
             My Name is :{" "}
-            <span className="name">Abdulrahman Helmy Rabeay Mohamed.</span>
+            <span className="name">Abdulrahman Helmy Rabee'i Mohamed.</span>
           </h4>
           <h4 className="myName">
             My Age : <span className="name">24 years old.</span>
@@ -24,7 +24,7 @@ function About() {
           <h4 className="myName">
             Jop Title :{" "}
             <span className="name">
-              Back-end Developer,{" "}
+              Junior Back-end Developer,{" "}
               <p>
                 I use Node.js, Express js and MongoDB for backend development.{" "}
                 <br /> Experienced in designing RESTful APIs for seamless data
