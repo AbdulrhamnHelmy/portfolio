@@ -45,9 +45,9 @@ export const myProjects = [
       "The application is to control users, using 4 API (get, post, set, delete), and using ejs codes",
     category: ["node & express"],
     imgPath: "./images/asas.png",
-    linkGithub: "https://github.com/AbdulrhamnHelmy/ManagementSystem",
-    iconLink: "https://managementsystem-tkd4.onrender.com/",
-    moreLink: "https://github.com/AbdulrhamnHelmy/ManagementSystem ",
+    linkGithub: "https://github.com/AbdulrhamnHelmy/Management-System",
+    iconLink: "https://github.com/AbdulrhamnHelmy/Management-System ",
+    moreLink: "https://github.com/AbdulrhamnHelmy/Management-System ",
   },
   {
     projectTitle: "Amazon_clone",
