@@ -24,12 +24,15 @@ function About() {
           <h4 className="myName">
             Jop Title :{" "}
             <span className="name">
-              Junior Back-end Developer,{" "}
               <p>
-                I use Node.js, Express js and MongoDB for backend development.{" "}
-                <br /> Experienced in designing RESTful APIs for seamless data
-                exchange. <br /> Use MongoDB as a NoSQL database for efficient
-                data management.
+                Junior Back-end Developer with hands-on experience in building
+                scalable and secure web applications using Node.js, Express.js,
+                and MongoDB. Skilled in designing and implementing RESTful APIs
+                for seamless data exchange and efficient data management with
+                NoSQL databases. Passionate about learning new technologies,
+                solving complex problems, and delivering high-quality solutions.
+                Strong team player with excellent communication skills and a
+                proactive approach to software development.
               </p>
             </span>
           </h4>
